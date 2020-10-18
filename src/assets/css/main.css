@@ -112,11 +112,11 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #cd1851;
+  color: #5c167a;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #cd1851;
-    color: #cd1851 !important; }
+    border-bottom-color: #5c167a;
+    color: #9b86a3 !important; }
     a:hover strong {
       color: inherit; }
 
@@ -999,7 +999,7 @@ header p {
    }
 
 header.major > :last-child {
-  border-bottom: solid 3px #cd1851;
+  border-bottom: solid 3px #5c167a;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
@@ -1057,8 +1057,8 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #cd1851;
-    box-shadow: 0 0 0 1px #cd1851; }
+    border-color: #5c167a;
+    box-shadow: 0 0 0 1px #5c167a; }
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(210, 215, 217, 0.75)' /%3E%3C/svg%3E");
@@ -1146,8 +1146,8 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #cd1851;
-    box-shadow: 0 0 0 1px #cd1851; }
+    border-color: #5c167a;
+    box-shadow: 0 0 0 1px #5c167a; }
 
 input[type="checkbox"] + label:before {
   border-radius: 0.375em; }
@@ -1378,7 +1378,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #cd1851;
+      color: #5c167a;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1423,7 +1423,7 @@ ul.pagination {
       padding: 0 0.5em;
       text-align: center; }
       ul.pagination li > .page.active {
-        background-color: #cd1851;
+        background-color: #5c167a;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
           background-color: #f67878; }
@@ -1497,8 +1497,8 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #cd1851;
-  color: #cd1851 !important;
+  box-shadow: inset 0 0 0 2px #5c167a;
+  color: #5c167a !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -1555,7 +1555,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #cd1851;
+    background-color: #5c167a;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
@@ -1644,7 +1644,7 @@ button,
       text-align: center;
       width: 10em; }
       .features article .icon:before {
-        color: #cd1851;
+        color: #5c167a;
         font-size: 2.75rem;
         position: relative;
         top: 0.05em; }
@@ -1931,7 +1931,7 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #2e2555;
+  background-color: #5c167a;
   font-size: 0.9em;
   position: -webkit-sticky;
   position: sticky;
@@ -1941,7 +1941,10 @@ button,
 }
   #sidebar h2 {
     font-size: 1.38889em;
-    color:#ffffff; }
+    color:#f2d652; }
+    #sidebar li {
+     
+      color:#f2d652; }
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
@@ -2086,7 +2089,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #cd1851;
+  border-bottom: solid 5px #5c167a;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2229,7 +2232,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #cd1851; }
+      color: #9b86a3; }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2259,7 +2262,7 @@ button,
         position: absolute;
         right: 0; }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #cd1851; }
+        color: #9b86a3; }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block; }
       #menu ul a.opener.active:before, #menu ul span.opener.active:before {

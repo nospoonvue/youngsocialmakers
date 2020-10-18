@@ -32,7 +32,7 @@
 					<div id="sidebar">
 						<div class="inner">
 							<div id="logo" style="width:100%;text-align:center">
-							<img src="images/program-logo.png" style="max-width:100px; ">
+							<img src="images/ysm-logo.png" style="max-width:100px; ">
 							</div>
 							<!-- Search 
 								<section id="search" class="alt">
